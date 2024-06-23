@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "CPP",
+            "includePath": [
+                "${workspaceFolder}/include/",
+                // !此处是头文件路径，以后可直接在此修改
+                // !----------------------------------------------------------------------------------------------
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+                "E:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"
+                // !----------------------------------------------------------------------------------------------
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            
+            "compilerPath": "E:/mingw64/bin/g++.exe",//!此处是编译器路径，以后可直接在此修改
+            // "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
